@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 128px;
+}
+.header__search{
+  
+}
+
+input{
+  width: 250px;
+  height: 40px;
+  border: solid 1px black;
+  border-radius: 20px ;
+}

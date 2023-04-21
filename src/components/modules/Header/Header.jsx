@@ -1,5 +1,7 @@
 import { useState } from 'react'
-
+import "../../../css/Header.css";
+import { FaShoppingCart} from 'react-icons/fa';
+import {MdSearch} from "react-icons/md"
 
 function Header() {
 
@@ -11,9 +13,10 @@ function Header() {
         </div>
 
         <div className='header__search'>
-          <input type="text"/>
-          
-          <button>Carrito</button>
+          <input 
+          placeholder='Buscar '
+          type="text"/>
+          <button><FaShoppingCart /></button>
         </div>
       </div>
 

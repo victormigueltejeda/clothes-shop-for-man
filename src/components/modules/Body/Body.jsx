@@ -12,7 +12,7 @@ function Body() {
           {
             listElement.map(element => {
               return(
-                <div className='body__card'>
+                <div key={element} className='body__card'>
                   <img src={`/src/assets/365SignatureHoodie.png`} width="328px" height="496px" />
                   <p>Azul Marino</p>
                   <div>
